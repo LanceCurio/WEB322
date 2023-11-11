@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+
+
+      <div class="container mx-auto">
+
+        <div class="hero min-h-screen bg-base-200">
+            <div class="hero-content text-center">
+              <div class="max-w-md">
+                <h1 class="text-5xl font-bold">Welcome to LegoWorld</h1>
+                <p class="py-6">Discover a world of creativity and fun in our Lego sets</p>
+                <a href="/lego/sets" class="btn btn-primary">Get Started Now</a>
+              </div>
+            </div>
+          </div>
+
+            <div class="grid grid-cols-3 gap-4">
+              <div class="card w-96 bg-base-100 shadow-xl">
+                <figure>
+                  <img class="w-full" src="https://cdn.rebrickable.com/media/sets/10938-1.jpg" alt="Dinosaur Nursery" />
+                </figure>   
+                <div class="card-body">
+                  <h2 class="card-title">Dinosaur Nursery</h2>
+                  <p>Discover into the prehistoric world with Dino Nursery, where a young paleontologist can embark on an exciting journey.</p>
+                  <div class="card-actions justify-end">
+                    <a href="/lego/sets/10938-1" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+            </div>
+
+              <div class="card w-96 bg-base-100 shadow-xl">
+                <figure>
+                    <img class="w-full" src="https://cdn.rebrickable.com/media/sets/10608-1.jpg" alt="Spider-Man Spider Truck" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Spider-Man Spider Truck</h2>
+                    <p>Join the friendly neighbouthood Spider-Man on a crime fighting mission with the Spider Truck LEGO set.</p>
+                    <div class="card-actions justify-end">
+                      <a href="/lego/sets/10608-1" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+            </div>
+
+              <div class="card w-96 bg-base-100 shadow-xl">
+                <figure>
+                    <img class="w-full" src="https://cdn.rebrickable.com/media/sets/10617-1.jpg" alt="My First Farm" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">My First Farm</h2>
+                    <p>Introduce your young builders to the wonderful world of farming and rural life with the "My First Farm" LEGO set.</p>
+                    <div class="card-actions justify-end">
+                    <a href="/lego/sets/10617-1" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
